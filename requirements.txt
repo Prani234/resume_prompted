@@ -1,0 +1,12 @@
+streamlit
+pypdf
+requests
+python-dotenv
+TTS
+PyPDF2
+pydub
+pillow
+opencv-python
+python-docx
+pytesseract
+pdf2image
