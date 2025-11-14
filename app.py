@@ -225,8 +225,8 @@ if uploaded:
     st.json(ats_json)
 
     # Store parsed data
-    # st.session_state.resume_data = ats_json
-    # resume_json_str = json.dumps(st.session_state.resume_data, indent=2)
+    st.session_state.resume_data = ats_json
+    resume_json_str = json.dumps(st.session_state.resume_data, indent=2)
     # st.write("DEBUG:", resume_json_str)
 
     # ----------------- STEP 2: CHATBOT -----------------
